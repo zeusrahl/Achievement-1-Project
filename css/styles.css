@@ -44,20 +44,19 @@ header, footer {
   background-color: var(--secondary-bg);
 }
 
-
 h1 {
   font-size: 30px;
-  font-weight: var(--font-weight-dafault);
+  font-weight: var(--font-weight-default);
 }
 
 h2 {
   font-size: 24px;
-  font-weight: var(--font-weight-dafault);
+  font-weight: var(--font-weight-default);
 }
 
 h3 {
   font-size: 18px;
-  font-weight: var(--font-weight-dafault);
+  font-weight: var(--font-weight-default);
 }
 
 span {
@@ -153,7 +152,7 @@ footer a {
 
 .button__secondary {
   background-color: var(--secondary-button-bg);
-  color: var(--secondary-button);
+  color: var(--dark-grey);
 }
 
 .navigation-list__item--active {

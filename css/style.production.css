@@ -40,20 +40,19 @@ footer {
   background-color: #069299;
 }
 
-
 h1 {
   font-size: 30px;
-  font-weight: undefined;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 24px;
-  font-weight: undefined;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: undefined;
+  font-weight: 700;
 }
 
 span {
@@ -175,7 +174,7 @@ footer a {
 
 .button__secondary {
   background-color: #e0b354;
-  color: undefined;
+  color: #2b2b2b;
 }
 
 .navigation-list__item--active {
