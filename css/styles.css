@@ -11,13 +11,13 @@ Secondary Color (Orange): #;
 
  :root {
    --primary-text-color: #163335;
-   --secondary-bg: #069299;
+   --secondary-bg: #0BDFEA;
    --dark-grey: #2b2b2b;
    --span-bg: #f88;
    --span-color: #3E1B1C;
-   --link-color: #357b70;
-   --link-color-visit: #1C1408;
-   --link-color-active: #489c79;
+   --link-color: #293661;
+   --link-color-visit: #1E3E31;
+   --link-color-active: #18342B;
    --secondary-button-bg: #e0b354;
    --sun-zero: #edc655;
    --sun-fifty: #fcffad;
