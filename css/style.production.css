@@ -33,11 +33,11 @@ main {
 }
 
 header {
-  background-color: #069299;
+  background-color: #0BDFEA;
 }
 
 footer {
-  background-color: #069299;
+  background-color: #0BDFEA;
 }
 
 h1 {
@@ -65,7 +65,7 @@ table {
 }
 
 a {
-  color: #357b70;
+  color: #293661;
 }
 
 a:visited {
@@ -80,7 +80,7 @@ a:hover, a:focus {
 
 a:active {
   /* selected link */
-  color: #489c79;
+  color: #1E3E31;
 }
 
 .button {
@@ -90,7 +90,7 @@ a:active {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #357b70;
+  background-color: #293661;
   color: white;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -109,7 +109,7 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #357b70;
+  background-color: #293661;
   color: white;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
