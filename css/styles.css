@@ -105,6 +105,10 @@ a:active {
   transition: 0.2s opacity;
 }
 
+.button__hide {
+  display: none;
+}
+
 button:hover,
 button:focus,
 .button:hover,
@@ -126,7 +130,7 @@ footer a {
   text-decoration: none;
 }
 
-#hide {
+.class {
   display: none;
 }
 
@@ -157,6 +161,7 @@ footer a {
 .button__secondary {
   background-color: var(--secondary-button-bg);
   color: var(--dark-grey);
+  display: none;
 }
 
 .navigation-list__item--active {
