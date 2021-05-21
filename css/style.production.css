@@ -142,6 +142,10 @@ footer a {
   text-decoration: none;
 }
 
+#hide {
+  display: none;
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;

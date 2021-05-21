@@ -126,6 +126,10 @@ footer a {
   text-decoration: none;
 }
 
+#hide {
+  display: none;
+}
+
 .page-header {
   display: flex;
   width: 100%;
