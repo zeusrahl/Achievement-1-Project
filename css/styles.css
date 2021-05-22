@@ -4,6 +4,8 @@ Colors used
 Text Color (Dark Gray): #;
 Primary Color (Purple): #;
 Secondary Color (Orange): #;
+Header fonts: 'Oleo Script', cursive;
+Body-Fonts: 'Roboto', sans-serif;
  */
  * {
    box-sizing: border-box;
@@ -23,12 +25,14 @@ Secondary Color (Orange): #;
    --sun-fifty: #fcffad;
    --sun-hundred: #f76414;
    --font-weight-default: 700;
+   --header-font: 'Oleo Script',cursive;
+   --body-font: 'Roboto', sans-serif;
  }
 
  body {
   background-color: white;
   color: var(--primary-text-color);
-  font-family: 'Merriweather', serif;
+  font-family: var(--body-font);
   font-weight: 400;
   font-size: 16px;
   /* Sets the font size */
@@ -45,16 +49,19 @@ header, footer {
 }
 
 h1 {
+  font-family: var(--header-font);
   font-size: 30px;
   font-weight: var(--font-weight-default);
 }
 
 h2 {
+  font-family: var(--header-font);
   font-size: 24px;
   font-weight: var(--font-weight-default);
 }
 
 h3 {
+  font-family: var(--header-font);
   font-size: 18px;
   font-weight: var(--font-weight-default);
 }
@@ -166,10 +173,6 @@ footer a {
 
 .navigation-list__item--active {
   text-decoration: none;
-}
-
-.favorite-things-list__item {
-  list-style-type: none;
 }
 
 .page-footer {

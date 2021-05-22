@@ -11,6 +11,8 @@ Colors used
 Text Color (Dark Gray): #;
 Primary Color (Purple): #;
 Secondary Color (Orange): #;
+Header fonts: 'Oleo Script', cursive;
+Body-Fonts: 'Roboto', sans-serif;
  */
  * {
    -webkit-box-sizing: border-box;
@@ -20,7 +22,7 @@ Secondary Color (Orange): #;
  body {
   background-color: white;
   color: #163335;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   /* Sets the font size */
@@ -41,16 +43,19 @@ footer {
 }
 
 h1 {
+  font-family: 'Oleo Script',cursive;
   font-size: 30px;
   font-weight: 700;
 }
 
 h2 {
+  font-family: 'Oleo Script',cursive;
   font-size: 24px;
   font-weight: 700;
 }
 
 h3 {
+  font-family: 'Oleo Script',cursive;
   font-size: 18px;
   font-weight: 700;
 }
@@ -188,10 +193,6 @@ footer a {
 
 .navigation-list__item--active {
   text-decoration: none;
-}
-
-.favorite-things-list__item {
-  list-style-type: none;
 }
 
 .page-footer {
