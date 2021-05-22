@@ -228,6 +228,11 @@ footer a {
   margin: 0 auto;
 }
 
+.work {
+  max-width: none;
+  margin: 1em
+}
+
 .portfolio-list {
   display: -ms-grid;
   display: grid;
@@ -239,6 +244,7 @@ footer a {
 
 .portfolio-list__item {
   background-color: lightgray;
+  margin:inherit;
 }
 
 .protfolio-list__item:last-child {

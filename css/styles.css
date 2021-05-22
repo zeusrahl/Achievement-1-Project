@@ -201,6 +201,11 @@ footer a {
   margin: 0 auto;
 }
 
+.work {
+  max-width: none;
+  margin: 1em
+}
+
 .portfolio-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -210,6 +215,7 @@ footer a {
 
 .portfolio-list__item {
   background-color: lightgray;
+  margin:inherit;
 }
 
 .protfolio-list__item:last-child {
