@@ -203,7 +203,7 @@ footer a {
 
 .work {
   max-width: none;
-  margin: 1em
+  padding: 20px;
 }
 
 .portfolio-list {
@@ -215,7 +215,9 @@ footer a {
 
 .portfolio-list__item {
   background-color: lightgray;
-  margin:inherit;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
 .protfolio-list__item:last-child {
