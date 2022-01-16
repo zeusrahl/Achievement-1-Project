@@ -217,7 +217,7 @@ footer a {
 }
 
 .portfolio-list__item {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
@@ -226,6 +226,14 @@ footer a {
 .portfolio-list__item:last-child {
   grid-column: 3/3;
   grid-row: 1/3;
+}
+
+.portfolio-image {
+  flex: auto;
+}
+
+.portfolio-image img {
+  width: 100%;
 }
 
 textarea {
