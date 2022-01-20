@@ -251,19 +251,19 @@ footer a {
 }
 
 .portfolio-list__item {
- /* background-color: lightgray; */
+ background-color: #55eff7;
  padding-left: 1em;
  padding-right: 1em;
  padding-bottom: 1em;
 }
 
-.portfolio-list__item:last-child {
+/* .portfolio-list__item:last-child {
  -ms-grid-column: 3;
  grid-column: 3/3;
  -ms-grid-row: 1;
  -ms-grid-row-span: 2;
  grid-row: 1/3;
-}
+} */
 
 .portfolio-image {
  -webkit-box-flex: 1;

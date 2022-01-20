@@ -222,16 +222,16 @@ footer a {
 }
 
 .portfolio-list__item {
-  /* background-color: lightgray; */
+  background-color: #55eff7;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
 }
 
-.portfolio-list__item:last-child {
+/* .portfolio-list__item:last-child {
   grid-column: 3/3;
   grid-row: 1/3;
-}
+} */
 
 .portfolio-image {
   flex: auto;
